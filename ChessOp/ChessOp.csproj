@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ChessOpLogo.png" />
+    <None Remove="images\BaWBoard.png" />
+    <None Remove="images\BlackPieces\Bbishop.png" />
+    <None Remove="images\BlackPieces\Bking.png" />
+    <None Remove="images\BlackPieces\Bknight.png" />
+    <None Remove="images\BlackPieces\Bpawn.png" />
+    <None Remove="images\BlackPieces\Bqueen.png" />
+    <None Remove="images\BlackPieces\Brook.png" />
+    <None Remove="images\chessBoard.jpeg" />
+    <None Remove="images\ChessOpLogo.png" />
+    <None Remove="images\Flip.png" />
+    <None Remove="images\Gear.png" />
+    <None Remove="images\WhitePieces\Wbishop.png" />
+    <None Remove="images\WhitePieces\Wking.png" />
+    <None Remove="images\WhitePieces\Wknight.png" />
+    <None Remove="images\WhitePieces\Wpawn.png" />
+    <None Remove="images\WhitePieces\Wqueen.png" />
+    <None Remove="images\WhitePieces\Wrook.png" />
+    <None Remove="images\Wood.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\BaWBoard.png" />
+    <Resource Include="images\BlackPieces\Bking.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ChessOpLogo.png" />
+    <Resource Include="images\BlackPieces\Bbishop.png" />
+    <Resource Include="images\BlackPieces\Bknight.png" />
+    <Resource Include="images\BlackPieces\Bpawn.png" />
+    <Resource Include="images\BlackPieces\Bqueen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\BlackPieces\Brook.png" />
+    <Resource Include="images\chessBoard.jpeg" />
+    <Resource Include="images\ChessOpLogo.png" />
+    <Resource Include="images\Flip.png" />
+    <Resource Include="images\Gear.png" />
+    <Resource Include="images\WhitePieces\Wbishop.png" />
+    <Resource Include="images\WhitePieces\Wking.png" />
+    <Resource Include="images\WhitePieces\Wknight.png" />
+    <Resource Include="images\WhitePieces\Wpawn.png" />
+    <Resource Include="images\WhitePieces\Wqueen.png" />
+    <Resource Include="images\WhitePieces\Wrook.png" />
+    <Resource Include="images\Wood.jpeg" />
+  </ItemGroup>
+
+</Project>
